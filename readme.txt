@@ -1,0 +1,1 @@
+This code accompanies the paper: Predicting pathogencity behavior in E.coli population through a state-dependent model and TRS profiling by Krzysztof Bartoszek, Marta Majchrzak, Sebastian Sakowski, Anna B. Kubiak-Szeligowska, Ingemar Kaj and Pawel Parniewski.
