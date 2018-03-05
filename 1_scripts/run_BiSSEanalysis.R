@@ -87,7 +87,7 @@ list(func.par.transform=function(pars){c(pars[1],pars[1:2],0,pars[3:4])},par0=c(
 list(func.par.transform=function(pars){c(pars[1:2],0,0,pars[3:4])},par0=c(lambda0=0.1,lambda1=0.1,q01=0.1,q10=0.1)),
 list(func.par.transform=function(pars){c(pars[1:2],0,0,pars[3],pars[3])},par0=c(lambda0=0.1,lambda1=0.1,q01=0.1)),
 list(func.par.transform=function(pars){c(pars[1],pars[1],0,0,pars[2],pars[2])},par0=c(lambda0=0.1,q01=0.1)),
-list(func.par.transform=function(pars){c(pars[1],pars[1],0,0,pars[3:4])},par0=c(lambda0=0.1,q01=0.1,q10=0.1))
+list(func.par.transform=function(pars){c(pars[1],pars[1],0,0,pars[2:3])},par0=c(lambda0=0.1,q01=0.1,q10=0.1))
 )
 
 ## read in the phylogenetic trees
