@@ -71,7 +71,7 @@ BiSSE.model.analysis<-function(parmodel,phylfam,starter,strain.family,dfdata,bin
 
 	    AIC<- (-2)*lnLik+2*k
 	    AICc<- AIC+ 2*k*(k+1)/(n-k-1)
-	    BIC<- lnLik + k*log(n)
+	    BIC<- (-2)*lnLik + k*log(n)
 
 	    res<-list(model.par.est=model.par.est,lnLik=lnLik,AIC=AIC,AICc=AICc,BIC=BIC,bisse.mle.res=bisse.mle.res,bisse.obj=bisse.obj,chrapetree=chrapetree,vbindata=vbindata,parmodel=parmodel,starter=starter,strain.family=strain.family,estpar=estpar)
 	},error=function(e){print(paste("Error with BiSSE calculations: ",e,"for starter",starter,"and",strain.family,"and",binvar))})
